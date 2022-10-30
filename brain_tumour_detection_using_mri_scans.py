@@ -180,6 +180,8 @@ plt.show()
 plt.savefig('LossVal_acc')
 
 model.save('Brain_model.h5')
+print("Accuracy")
+
 
 from flask import jsonify
 from keras.preprocessing import image
